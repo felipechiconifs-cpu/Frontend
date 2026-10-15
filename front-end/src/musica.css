@@ -1,0 +1,33 @@
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.tag {
+  padding: 2px 10px;
+  font-size: 0.75rem;
+  color: #1ed760;
+  background-color: rgba(29, 185, 84, 0.15);
+  border-radius: 999px;
+}
+
+.card-audio {
+  color-scheme: dark;
+  width: 100%;
+  min-height: 40px;
+}
+
+.card-actions {
+  margin-top: auto;
+}
+
+.card-actions .btn {
+  display: block;
+}
+
+@media (max-width: 480px) {
+  .search-form {
+    flex-direction: column;
+  }
+}
